@@ -1,0 +1,29 @@
+# requirements.txt - Python 3.13 Compatible
+
+
+# Django and REST Framework
+Django==5.0.1
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Celery and Redis
+celery==5.3.4
+redis==5.0.1
+django-celery-results==2.5.1
+
+# OCR Dependencies (Python 3.13 compatible versions)
+pytesseract==0.3.13
+Pillow==11.0.0
+
+# Database (PostgreSQL - optional, SQLite included in Django)
+# psycopg2-binary==2.9.9
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Production server (optional)
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Development tools (optional)
+ipython==8.29.0
